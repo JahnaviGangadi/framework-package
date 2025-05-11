@@ -5,7 +5,7 @@ description = "A short description of your project"
 authors = ["Jahnavi Gangadi <jahnavigangadi20.gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.10.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^8.0"
