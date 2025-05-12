@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: YourPackageName
+Version: 0.1
+Dynamic: description
+
+# Framework Package
+This is the README file for my package.
