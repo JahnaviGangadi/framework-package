@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [tool.poetry]
 name = "python publish package"
 version = "0.1.0"
@@ -13,3 +14,26 @@ pytest = "^8.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+=======
+[project]
+name = "framework-package"
+version = "0.1.0"
+description = "A simple framework package"
+authors = [
+    {name = "Meghanavunnava",email = "Vunnavameghana@email.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-cov = "^6.1.1"
+>>>>>>> 551dc988ec271f610e0ddb409102e142bd75be47 
