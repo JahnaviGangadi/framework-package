@@ -3,7 +3,7 @@ name: Python Package Publish
 on:
   push:
     tags:
-      - 'v*'     # This means trigger when a version tag is pushed, like v0.1.0
+      - 'v*.*.*'    # This means trigger when a version tag is pushed, like v0.1.0
 
 jobs:
   build:
