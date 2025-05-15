@@ -1,6 +1,6 @@
 # framework Package
 
-This is an framework package that provides awesome features!
+This is a framework package that provides awesome features !
 
 ## Installation
 
